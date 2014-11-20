@@ -1,20 +1,36 @@
+body{
+  margin-left: 50px;
+  margin-top:10px;
+  font-style: oblique;
+}
+#message{
+  height:20px;
+  font-size: 20px;
+}
 #board{
-  margin-top:100px;
-  margin-left:50px;
-  width:210px;
+  width:300px;
+  height: 500px;
+  border-color: 10px solid blue;
+}
+.frame{
+  margin-top: 50px;
+  border: solid 10px blue;
+  width: 300px;
+  height: 400px;
 }
 .grid{
   width:20px;
   height:20px;
   float:left;
   background-color: black;
+  border-color: blue;
 }
 .space{
   background-color: black;
 }
 .apple{
-  background-color:red;
+  background-color:#FF6699;
 }
 .snake{
-  background-color: green;
+  background-color:#00FF99; 
 }
