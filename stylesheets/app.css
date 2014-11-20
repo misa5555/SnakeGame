@@ -1,0 +1,20 @@
+#board{
+  margin-top:100px;
+  margin-left:50px;
+  width:210px;
+}
+.grid{
+  width:20px;
+  height:20px;
+  float:left;
+  background-color: black;
+}
+.space{
+  background-color: black;
+}
+.apple{
+  background-color:red;
+}
+.snake{
+  background-color: green;
+}

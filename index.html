@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<title>snake</title>
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheets/app.css">
+  <script src="lib/board.js" ></script>
+  <script src="lib/snake.js" ></script>
+  <script src="lib/coord.js" ></script>
+  <script src="lib/snake-view.js" ></script>
+  <script src="js/jquery-2.1.1.js" ></script>
+
+</head>
+<body>
+  <h3>Snake Game</h3>
+  <div id="board">
+  </div>
+</body>
+<script>
+  var snake = new Snake.SnakeBody("E", [[2,3],[2,4]]);
+  var board = new Snake.Board(snake);
+  var view = new Snake.View(board);
+  view.step();
+</script>
+</html>
